@@ -37,17 +37,17 @@ but shoud work well with other serial/i2c/usb/ha7net devices. Please let me know
 1. That's it. On the integrations page wou will find 1-Wire integration with discovered devices.
 
 ### Configuration
-Please check the **[full documentation page](https://github.com/lrybak/hassio-owserver/blob/master/DOCS.md)**.
+Please check the **[full documentation page](https://github.com/strike56/hassio-owserver/blob/master/DOCS.md)**.
 
 ## Screenshots
 
-![Integration setup 1](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_setup1.png)
-![Integration setup 2](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_setup2.png)
-![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
-![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
+![Integration setup 1](https://github.com/strike56/hassio-owserver/raw/master/images/screenshot_setup1.png)
+![Integration setup 2](https://github.com/strike56/hassio-owserver/raw/master/images/screenshot_setup2.png)
+![Integrations page](https://github.com/strike56/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
+![owhttpd](https://github.com/strike56/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[releases-shield]: https://img.shields.io/github/release/lrybak/hassio-owserver.svg
-[releases]: https://github.com/lrybak/hassio-owserver/releases
+[releases-shield]: https://img.shields.io/github/release/strike56/hassio-owserver.svg
+[releases]: https://github.com/strike56/hassio-owserver/releases
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg

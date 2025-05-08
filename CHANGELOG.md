@@ -24,7 +24,7 @@ This update introduces the ability to add multiple 1-Wire devices which required
 Devices now need to be specified as a YAML list. Please refer to the documentation page for more details before you upgrade.
 
 ## 0.4.0
-- Added option to support PBM (ElabNET's Professioinal Bumster PBM-01) by @SamGamdschie in https://github.com/lrybak/hassio-owserver/pull/27
+- Added option to support PBM (ElabNET's Professioinal Bumster PBM-01) by @SamGamdschie in https://github.com/strike56/hassio-owserver/pull/27
 
 ## 0.3.9
 
@@ -70,16 +70,16 @@ Devices now need to be specified as a YAML list. Please refer to the documentati
 
 ## 0.3.0
 
-This version aims to update the add-on installation process. Currently, users have to manually add the repository https://github.com/lrybak/hassio-owserver/ to install the add-on.
+This version aims to update the add-on installation process. Currently, users have to manually add the repository https://github.com/strike56/hassio-owserver/ to install the add-on.
 With this pull request, three new repositories are introduced:
 
-https://github.com/lrybak/addon-repository - containing stable releases of the addon, which is recommended for most users.
-https://github.com/lrybak/addon-repository-beta - containing release candidate versions of the add-on, which is recommended only for those who want to test new features.
-https://github.com/lrybak/addon-repository-edge - containing bleeding edge builds of the add-on, suitable only for development purposes and may be unstable or not work at all.
+https://github.com/strike56/addon-repository - containing stable releases of the addon, which is recommended for most users.
+https://github.com/strike56/addon-repository-beta - containing release candidate versions of the add-on, which is recommended only for those who want to test new features.
+https://github.com/strike56/addon-repository-edge - containing bleeding edge builds of the add-on, suitable only for development purposes and may be unstable or not work at all.
 
 This change makes it easier to release new updates for the add-on and provides a more streamlined installation process for users.
 
-Please note that the current repository (https://github.com/lrybak/hassio-owserver/) will be supported until the end of July 2023. 
+Please note that the current repository (https://github.com/strike56/hassio-owserver/) will be supported until the end of July 2023. 
 Repository still will be used to host addon code, 
 After that time, all users will need to switch to the new repositories mentioned above to get updates.
 
@@ -103,7 +103,7 @@ Thank you for your understanding and support.
 ## 0.2.0
 
 - Upgrades addon-base to 9.1.0
-- Migrates repository (from **https://github.com/lrybak/hassio-addons/owserver** to: **https://github.com/lrybak/hassio-owserver**)
+- Migrates repository (from **https://github.com/strike56/hassio-addons/owserver** to: **https://github.com/strike56/hassio-owserver**)
 - Adds Github Actions workflow to build and publish multi-arch images into Docker Hub
 
 ## 0.1.4
