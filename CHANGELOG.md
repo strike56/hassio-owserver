@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.2
+- Added support LinkUSB devices
+
 ## 0.6.1
 - Update hassio-addons/addon-base to v17.2.1
 

@@ -45,6 +45,7 @@ Specify the owserver device type from the following options:
 - ha7net
 - w1 (direct access via GPIO on RasPi)
 - fake (random simulated device)
+- link
 
 #### Sub-option: `device`
 
@@ -54,6 +55,7 @@ This is mandatory option only for following **device_type**:
 - passive
 - i2c
 - pbm
+- link
 
 #### Sub-option: `ha7net_server`
 
