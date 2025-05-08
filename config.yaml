@@ -31,4 +31,4 @@ schema:
   debug: bool?
 ingress: true
 panel_icon: mdi:alpha-w-box
-image: ghcr.io/lrybak/owserver/{arch}
+image: ghcr.io/strike56/owserver/{arch}
