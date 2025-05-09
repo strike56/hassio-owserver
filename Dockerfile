@@ -22,16 +22,16 @@ RUN apk add --no-cache --virtual .build-deps alpine-keys bash automake make git 
   && ./bootstrap \
   && ./configure \
     --disable-owftpd \
-    --disable-owexternal \
-    --disable-ownet \
-    --disable-owcapi \
+    --enable-owexternal \
+    --enable-ownet \
+    --enable-owcapi \
     --disable-owperl \
     --disable-owphp \
     --disable-owpython \
-    --disable-owtcl \
+    --enable-owtcl \
     --disable-owtap \
-    --disable-owmon \
-    --disable-owfs \
+    --enable-owmon \
+    --enable-owfs \
     --disable-zero \
     --disable-avahi \
     --enable-debug \
